@@ -1,0 +1,581 @@
+﻿Build started 20/09/2013 8:29:32 PM.
+     1>Project "C:\cocos2d-x\projects\BeatBlast\proj.win32\BeatBlast.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx\include" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\external" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\CocosDenshion\include" /I"C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\BBCommonResources.cpp ..\Classes\BBSimpleBulletSprite.cpp ..\Classes\BBWepNotifSprite.cpp ..\Classes\CCParallaxNodeExtras.cpp ..\Classes\HelloWorldScene.cpp main.cpp
+         AppDelegate.cpp
+         BBCommonResources.cpp
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.h(8): warning C4996: 'cocos2d::CCParallaxNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(767) : see declaration of 'cocos2d::CCParallaxNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(32): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCSize': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(19): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(14): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(15): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(16): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(21): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(24): warning C4996: 'cocos2d::CCSpriteBatchNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(688) : see declaration of 'cocos2d::CCSpriteBatchNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(25): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(29): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(30): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(31): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(32): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(33): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(34): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(41): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(56): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(56): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(57): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(57): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(59): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(60): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(61): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(64): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(71): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(73): warning C4996: 'cocos2d::CCLayerColor': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(694) : see declaration of 'cocos2d::CCLayerColor'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(74): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(83): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(93): warning C4996: 'cocos2d::CCLabelTTF': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(687) : see declaration of 'cocos2d::CCLabelTTF'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(99): warning C4996: 'cocos2d::CCScene': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(102): warning C4996: 'cocos2d::CCObject': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(108): warning C4996: 'cocos2d::CCAcceleration': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(548) : see declaration of 'cocos2d::CCAcceleration'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(109): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(109): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(110): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(110): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(111): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(111): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(115): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSpriteBatchNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(688) : see declaration of 'cocos2d::CCSpriteBatchNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCLayerColor': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(694) : see declaration of 'cocos2d::CCLayerColor'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCLabelTTF': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(687) : see declaration of 'cocos2d::CCLabelTTF'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCScene': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCObject': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCAcceleration': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(548) : see declaration of 'cocos2d::CCAcceleration'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\AppDelegate.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+         BBSimpleBulletSprite.cpp
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(32): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\BBCommonResources.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\BBCommonResources.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCSize': was declared deprecated (..\Classes\BBCommonResources.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(16): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(19): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(22): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(22): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(23): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(23): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(36): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.cpp(36): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+         BBWepNotifSprite.cpp
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\BBSimpleBulletSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(14): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\BBSimpleBulletSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(15): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\BBSimpleBulletSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(16): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\BBSimpleBulletSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(21): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\BBSimpleBulletSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(6): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(6): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(20): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(23): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(24): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(27): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(28): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(29): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(36): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.cpp(42): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+         CCParallaxNodeExtras.cpp
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.h(8): warning C4996: 'cocos2d::CCParallaxNode': was declared deprecated (..\Classes\CCParallaxNodeExtras.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(767) : see declaration of 'cocos2d::CCParallaxNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(4): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(5): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(6): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(7): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(5): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.cpp(12): warning C4996: 'cocos2d::CCParallaxNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(767) : see declaration of 'cocos2d::CCParallaxNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\BBWepNotifSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(19): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\BBWepNotifSprite.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.cpp(4): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.cpp(28): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.cpp(31): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+         HelloWorldScene.cpp
+         main.cpp
+     1>c:\cocos2d-x\projects\beatblast\classes\ccparallaxnodeextras.h(8): warning C4996: 'cocos2d::CCParallaxNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(767) : see declaration of 'cocos2d::CCParallaxNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(32): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbcommonresources.h(33): warning C4996: 'cocos2d::CCSize': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbwepnotifsprite.h(19): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(10): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(14): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(15): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(16): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\bbsimplebulletsprite.h(21): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(24): warning C4996: 'cocos2d::CCSpriteBatchNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(688) : see declaration of 'cocos2d::CCSpriteBatchNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(25): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(29): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(30): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(31): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(32): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(33): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(34): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(41): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(56): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(56): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(57): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(57): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(59): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(60): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(61): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(64): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(71): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(73): warning C4996: 'cocos2d::CCLayerColor': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(694) : see declaration of 'cocos2d::CCLayerColor'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(74): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(83): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(93): warning C4996: 'cocos2d::CCLabelTTF': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(687) : see declaration of 'cocos2d::CCLabelTTF'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(99): warning C4996: 'cocos2d::CCScene': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(102): warning C4996: 'cocos2d::CCObject': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(108): warning C4996: 'cocos2d::CCAcceleration': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(548) : see declaration of 'cocos2d::CCAcceleration'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(109): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(109): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(110): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(110): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(111): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(111): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(115): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSpriteBatchNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(688) : see declaration of 'cocos2d::CCSpriteBatchNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSprite': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCPoint': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCNode': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCArray': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCLayerColor': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(694) : see declaration of 'cocos2d::CCLayerColor'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCLabelTTF': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(687) : see declaration of 'cocos2d::CCLabelTTF'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCScene': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCObject': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCAcceleration': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(548) : see declaration of 'cocos2d::CCAcceleration'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCSet': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(543) : see declaration of 'cocos2d::CCSet'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.h(105): warning C4996: 'cocos2d::CCEvent': was declared deprecated (..\Classes\HelloWorldScene.cpp)
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(536) : see declaration of 'cocos2d::CCEvent'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(7): warning C4996: 'cocos2d::CCScene': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(9): warning C4996: 'cocos2d::CCScene': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(697) : see declaration of 'cocos2d::CCScene'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(27): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(30): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(47): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(47): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(52): warning C4996: 'cocos2d::CCMenuItemImage': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(740) : see declaration of 'cocos2d::CCMenuItemImage'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(56): warning C4996: 'cocos2d::MenuItemImage::create': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\menu_nodes\ccmenuitem.h(347) : see declaration of 'cocos2d::MenuItemImage::create'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(56): warning C4996: 'cocos2d::CCMenuItemImage': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(740) : see declaration of 'cocos2d::CCMenuItemImage'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(60): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(63): warning C4996: 'cocos2d::CCMenu': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(742) : see declaration of 'cocos2d::CCMenu'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(742) : see declaration of 'cocos2d::CCMenu'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(64): warning C4996: 'cocos2d::CCPointZero': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(393) : see declaration of 'cocos2d::CCPointZero'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(73): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(81): warning C4996: 'cocos2d::SpriteFrameCache::sharedSpriteFrameCache': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\sprite_nodes\ccspriteframecache.h(65) : see declaration of 'cocos2d::SpriteFrameCache::sharedSpriteFrameCache'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(83): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(98): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(98): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(98): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(99): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(99): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(99): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(101): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(102): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(103): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(104): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(105): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(106): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(118): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(145): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(145): warning C4996: 'cocos2d::CCSpriteFrame': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(576) : see declaration of 'cocos2d::CCSpriteFrame'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(165): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(166): warning C4996: 'cocos2d::ccc4': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(425) : see declaration of 'cocos2d::ccc4'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(167): warning C4996: 'cocos2d::CCSizeMake': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(382) : see declaration of 'cocos2d::CCSizeMake'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(168): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(193): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(193): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(214): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(218): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(222): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(222): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(224): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(228): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(232): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(240): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(246): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(256): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(256): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(267): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(268): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(271): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(275): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(281): warning C4996: 'cocos2d::CallFuncN::create': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\actions\ccactioninstant.h(313) : see declaration of 'cocos2d::CallFuncN::create'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(283): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(286): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(287): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(289): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(291): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(783) : see declaration of 'cocos2d::CCRect'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(295): warning C4996: 'cocos2d::CCRectMake': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(387) : see declaration of 'cocos2d::CCRectMake'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(299): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(301): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(783) : see declaration of 'cocos2d::CCRect'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(305): warning C4996: 'cocos2d::CCRectMake': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(387) : see declaration of 'cocos2d::CCRectMake'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(317): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(783) : see declaration of 'cocos2d::CCRect'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(319): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(319): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(338): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(338): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(348): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(350): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(350): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(379): warning C4996: 'cocos2d::CCLog': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(994) : see declaration of 'cocos2d::CCLog'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(385): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(389): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(403): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(535) : see declaration of 'cocos2d::CCObject'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(409): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(422): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(422): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(425): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(431): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(432): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(433): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(438): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(439): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(439): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(441): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(441): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(443): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(444): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(485): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(511): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(511): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(512): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(512): warning C4996: 'cocos2d::ccpMult': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(90) : see declaration of 'cocos2d::ccpMult'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(521): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(521): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(532): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(574): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(579): warning C4996: 'cocos2d::CCAcceleration': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(548) : see declaration of 'cocos2d::CCAcceleration'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(609): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(612): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(618): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(624): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(633): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(633): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(636): warning C4996: 'cocos2d::CCSetIterator': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(552) : see declaration of 'cocos2d::CCSetIterator'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(638): warning C4996: 'cocos2d::CCTouch': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(570) : see declaration of 'cocos2d::CCTouch'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(570) : see declaration of 'cocos2d::CCTouch'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(570) : see declaration of 'cocos2d::CCTouch'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(639): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(644): warning C4996: 'cocos2d::CCSetIterator': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(552) : see declaration of 'cocos2d::CCSetIterator'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(647): warning C4996: 'cocos2d::CCSize': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(782) : see declaration of 'cocos2d::CCSize'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(647): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\ccdirector.h(107) : see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(650): warning C4996: 'cocos2d::CCSetIterator': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(552) : see declaration of 'cocos2d::CCSetIterator'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(652): warning C4996: 'cocos2d::CCTouch': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(570) : see declaration of 'cocos2d::CCTouch'
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(570) : see declaration of 'cocos2d::CCTouch'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(653): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(781) : see declaration of 'cocos2d::CCPoint'
+     1>c:\cocos2d-x\projects\beatblast\classes\helloworldscene.cpp(658): warning C4996: 'cocos2d::CCSetIterator': was declared deprecated
+                 c:\cocos2d-x\cocos2dx\include\ccdeprecated.h(552) : see declaration of 'cocos2d::CCSetIterator'
+       PreLinkEvent:
+         if not exist "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x\projects\BeatBlast\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\BeatBlast.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\\" /LIBPATH:"C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\BeatBlast.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\BeatBlast.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\BBCommonResources.obj
+         Debug.win32\BBSimpleBulletSprite.obj
+         Debug.win32\BBWepNotifSprite.obj
+         Debug.win32\CCParallaxNodeExtras.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         BeatBlast.vcxproj -> C:\cocos2d-x\projects\BeatBlast\proj.win32\Debug.win32\BeatBlast.exe
+     1>Done Building Project "C:\cocos2d-x\projects\BeatBlast\proj.win32\BeatBlast.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.37
